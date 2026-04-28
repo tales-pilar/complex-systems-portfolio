@@ -1,98 +1,127 @@
 # Computational Explorations in Complex Systems
 
-Exploring how **structure, dynamics, and data interact to produce emergent behavior** through computational modeling.
+This repository presents a structured computational portfolio focused on the study of **complex systems**, integrating concepts from nonlinear dynamics, network science, and data analysis.
+
+The goal is to explore how **structure, dynamics, and randomness interact to produce emergent behavior**.
 
 ---
 
-## Overview
+## Research Focus
 
-This repository presents a structured portfolio of computational projects investigating fundamental mechanisms of complex systems.
+This portfolio is organized around three fundamental dimensions of complex systems:
 
-The work is organized around three complementary perspectives:
+* **Dynamics** → how systems evolve over time
+* **Structure** → how interactions are organized
+* **Data** → how patterns can be extracted from observations
 
-- **Nonlinear dynamics** — how systems evolve over time  
-- **Network structure** — how interactions shape global behavior  
-- **Data-driven analysis** — how structure emerges in observations  
-
-Each project is based on minimal models designed to capture key phenomena such as **instability, emergence, and predictability limits**.
+Together, these projects form a cohesive exploration of **emergence across different domains**.
 
 ---
 
 ## Projects
 
-### 1. Chaos and Nonlinear Dynamics  
-**Logistic Map — Bifurcation, Sensitivity, and Lyapunov Exponent**
+### Project 1 — Nonlinear Dynamics and Chaos
 
-- Transition from order to chaos  
-- Period-doubling bifurcations  
-- Quantitative chaos detection (Lyapunov exponent)  
+**Focus:** Temporal evolution and sensitivity to initial conditions
 
-👉 [View Project](./project1-chaos-logistic-map)
+* Logistic map simulation
+* Bifurcation diagram
+* Transition from order to chaos
 
----
+**Key insight:**
 
-### 2. Network Structure and Emergence  
-**Random vs Scale-Free Networks**
+> Deterministic systems can generate unpredictable behavior through nonlinear dynamics.
 
-- Erdős–Rényi vs Barabási–Albert  
-- Emergence of hubs  
-- Structural differences in connectivity  
-
-👉 [View Project](./project2-network-structure)
+📂 [`project1-chaos-logistic-map`](./project1-chaos-logistic-map)
 
 ---
 
-### 3. Data and Temporal Patterns  
-**Structure in Noisy Time Series**
+### Project 2 — Network Structure and Emergence
 
-- Detection of structure in noisy signals  
-- Autocorrelation and spectral analysis  
-- Signal vs noise interpretation  
+**Focus:** Structural organization of complex systems
 
-👉 [View Project](./project3-timeseries-analysis)
+* Erdős–Rényi random graphs
+* Barabási–Albert scale-free networks
+* Degree distribution and topology analysis
 
----
+**Key insight:**
 
-## Conceptual Framework
+> Global network structure emerges from local interaction rules.
 
-This portfolio explores a central idea in complex systems:
-
-- **Dynamics** → how systems evolve  
-- **Structure** → how interactions shape behavior  
-- **Data** → how structure appears in observations  
-
-Together, these perspectives provide a unified framework for understanding **emergence and predictability in complex systems**.
+📂 [`project2-complex-networks`](./project2-complex-networks)
 
 ---
 
-## Scientific Perspective
+### Project 3 — Time-Series Analysis and Hidden Structure
 
-The projects emphasize:
+**Focus:** Extracting patterns from noisy data
 
-- Minimal models with strong conceptual meaning  
-- Integration of theory, computation, and interpretation  
-- Understanding how complex behavior arises from simple rules  
+* Rolling mean (trend extraction)
+* Autocorrelation (temporal dependence)
+* Fourier transform (frequency analysis)
 
----
+**Key insight:**
 
-## Tools
+> Apparent randomness can conceal underlying structure detectable through statistical and spectral methods.
 
-- Python  
-- NumPy  
-- Pandas  
-- Matplotlib  
-- NetworkX  
+📂 [`project3-timeseries-analysis`](./project3-timeseries-analysis)
 
 ---
 
-## Future Work
+## Conceptual Integration
 
-- Lyapunov exponent generalization  
-- Network dynamics (diffusion, robustness)  
-- Analysis of real-world datasets  
+Each project addresses a different aspect of complex systems:
+
+| Dimension | Project              | Core Idea                           |
+| --------- | -------------------- | ----------------------------------- |
+| Dynamics  | Chaos (Logistic Map) | Sensitivity and nonlinear evolution |
+| Structure | Networks             | Emergence of topology               |
+| Data      | Time Series          | Signal extraction from noise        |
+
+Together, they illustrate a central principle:
+
+> **Complex behavior emerges from simple rules, structured interactions, and noisy observations.**
+
+---
+
+## Technical Stack
+
+* Python
+* NumPy
+* Matplotlib
+* NetworkX
+* Pandas
+
+---
+
+## Motivation
+
+This portfolio was developed to build a computational foundation for studying **complex systems**, with particular interest in:
+
+* emergence and self-organization
+* pattern formation
+* data-driven discovery of underlying dynamics
+
+---
+
+## Future Directions
+
+* Nonlinear time-series modeling
+* Complex networks with dynamics (dynamic networks)
+* Machine learning for pattern discovery
+* Real-world data applications
 
 ---
 
 ## Author
 
-Civil Engineer transitioning into Complex Systems research, with a focus on computational modeling and interdisciplinary analysis.
+**Tales Pilar Ataides**
+Civil Engineer transitioning into computational and complex systems research
+
+---
+
+## Final Remark
+
+> Understanding complex systems requires connecting dynamics, structure, and data.
+> This portfolio represents a first step toward that integration.
+
